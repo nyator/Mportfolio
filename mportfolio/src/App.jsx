@@ -1,8 +1,13 @@
 import React from 'react'
+import About from './components/About'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='text-white font-dmsan'>
+      <Navbar />
+      {/* <About /> */}
+    </div>
   )
 }
 
