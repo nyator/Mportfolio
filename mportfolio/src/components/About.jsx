@@ -1,9 +1,11 @@
+import { tools,fun_tools } from "@/constant/text";
+
 import Linkicon from "@/design/Linkicon";
-import { VscIndent, VscLibrary } from "react-icons/vsc";
+import { VscIndent, VscLibrary, VscSparkleFilled } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <div className="flex flex-col">
+    <div id="/about" className="flex flex-col">
       <div className="flex items-center gap-8 mb-12 flex-row-reverse">
         <div className="w-full h-[1px] bg-zinc-700" />
         <h1 className="text-3xl md:text-5xl font-black text-end">
@@ -47,36 +49,50 @@ const About = () => {
           </div>
         </div>
 
-        <div>
-          <div className="flex items-center gap-3">
-            <div className="bg-blue-500 p-1 rounded-[2px]">
-              <VscLibrary className="text-black" />
+
+
+
+
+        <div className="space-y-10">
+          <div>
+            <div className="flex items-center gap-3 mb-5">
+              <div className="bg-blue-500 p-1 rounded-[2px]">
+                <VscLibrary className="text-black" />
+              </div>
+              <h1 className="font-black text-gray-300">Use at work </h1>
             </div>
-            <h1 className="font-black text-gray-300">Use at work </h1>
+
+            <div className="flex flex-wrap flex-col-4 gap-2">
+              {tools.map((tool, index) => (
+                <p
+                  key={index}
+                  className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded"
+                >
+                  {tool}
+                </p>
+              ))}
+            </div>
           </div>
 
-          <div className="flex flex-wrap flex-col-4 gap-2">
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">TypeScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">HTML</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">CSS</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
-            {/* <p>TypeScript</p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>React</p>
-              <p>Redux</p>
-              <p>NodeJS</p>
-              <p>Express</p>
-              <p>GraphQL</p>
-              <p>PostgreSQL</p>
-              <p>Github</p>
-              <p>Jira</p> */}
+
+          <div>
+            <div className="flex items-center gap-3 mb-5">
+              <div className="bg-blue-500 p-1 rounded-[2px]">
+                <VscSparkleFilled className="text-black" />
+              </div>
+              <h1 className="font-black text-gray-300">Use at work </h1>
+            </div>
+
+            <div className="flex flex-wrap flex-col-4 gap-2">
+              {fun_tools.map((tool, index) => (
+                <p
+                  key={index}
+                  className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded"
+                >
+                  {tool}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       </div>
