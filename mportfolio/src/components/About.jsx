@@ -1,7 +1,8 @@
-import { tools,fun_tools } from "@/constant/text";
+import { tools, fun_tools } from "@/constant/text";
 
 import Linkicon from "@/design/Linkicon";
-import { VscIndent, VscLibrary, VscSparkleFilled } from "react-icons/vsc";
+import { VscIndent, VscLibrary } from "react-icons/vsc";
+import { BsEmojiSmileFill } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -14,8 +15,8 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
-        <div className="space-y-5 text-gray-300 leading-relaxed">
-          <div className="overflow-hidden w-fit ">
+        <div className="space-y-5 text-gray-300 leading-relaxed text-[16.5px] text-justify">
+          <div className="overflow-hidden w-fit">
             <p>
               <span className="bg-blue-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
                 H
@@ -56,7 +57,7 @@ const About = () => {
         <div className="space-y-10">
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="bg-blue-500 p-1 rounded-[2px]">
+              <div className="bg-blue-500 p-[2px] rounded-[2px]">
                 <VscLibrary className="text-black" />
               </div>
               <h1 className="font-black text-gray-300">Use at work </h1>
@@ -77,9 +78,8 @@ const About = () => {
 
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="bg-blue-500 p-1 rounded-[2px]">
-                <VscSparkleFilled className="text-black" />
-              </div>
+                <BsEmojiSmileFill  className="text-blue-500 size-5" />
+
               <h1 className="font-black text-gray-300">Use at work </h1>
             </div>
 
