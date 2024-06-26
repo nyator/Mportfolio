@@ -1,14 +1,23 @@
-import React from 'react'
-import About from './components/About'
-import Navbar from './components/Navbar'
+import React from "react";
+
+import Navbar from "./components/Navbar";
+import Topnav from "./components/Topnav";
+import Hero from "./components/Hero";
+import About from "./components/About";
 
 const App = () => {
   return (
-    <div className='text-white font-dmsan'>
+    <div className="text-white font-dmsan">
       <Navbar />
-      {/* <About /> */}
+      <div className="ml-[55px]">
+        <Topnav />
+        <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
+          {/* <Hero /> */}
+          <About />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

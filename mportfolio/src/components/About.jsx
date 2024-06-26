@@ -1,19 +1,85 @@
-import React from "react";
-import { SiLinkedin, SiGithub, SiX } from "react-icons/si";
+import Linkicon from "@/design/Linkicon";
+import { VscIndent, VscLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <div className="flex">
-
-      <div>
-        <div className="flex gap-3">
-          <SiLinkedin size="20" />
-          <SiGithub size="20" />
-          <SiX size="20" />
-        </div>
-        
+    <div className="flex flex-col">
+      <div className="flex items-center gap-8 mb-12 flex-row-reverse">
+        <div className="w-full h-[1px] bg-zinc-700" />
+        <h1 className="text-3xl md:text-5xl font-black text-end">
+          About<span className="text-blue-500">.</span>
+        </h1>
       </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
+        <div className="space-y-5 text-gray-300 leading-relaxed">
+          <div className="overflow-hidden w-fit ">
+            <p>
+              <span className="bg-blue-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
+                H
+              </span>
+              ey! I'm Bob, if you haven't already gathered that by now. I'm a
+              painter turned software engineer from Daytona, Florida. I
+              specialize in the backend, primarily Node and Rust, but love
+              building with whatever tools are right for the job.
+            </p>
+          </div>
+          <p>
+            I currently work for Google on Google Photos. I also toss in my ¢2
+            with the design systems teams from time to time (once an artist,
+            always an artist, amirite?).
+          </p>
+          <p>
+            Outside of work, I still love to paint. Any given Sunday you'll find
+            me scribbling some happy clouds with my son ☁️ I even teach courses
+            online if you're looking to learn!
+          </p>
+          <p>
+            I'm passively looking for new positions where I can merge my love
+            for code with my love for the canvas. If you think you've got an
+            opening that I might like, let's connect 🔗
+          </p>
+          <div className="flex items-center gap-3">
+            <p className="flex items-center gap-1 text-blue-300 opacity-70">
+              My links <VscIndent />
+            </p>
+            <Linkicon />
+          </div>
+        </div>
+
+        <div>
+          <div className="flex items-center gap-3">
+            <div className="bg-blue-500 p-1 rounded-[2px]">
+              <VscLibrary className="text-black" />
+            </div>
+            <h1 className="font-black text-gray-300">Use at work </h1>
+          </div>
+
+          <div className="flex flex-wrap flex-col-4 gap-2">
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">TypeScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">HTML</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">CSS</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            <p className="text-[12px] text-gray-300 bg-zinc-700 px-2 py-1 rounded">JavaScript</p>
+            {/* <p>TypeScript</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>React</p>
+              <p>Redux</p>
+              <p>NodeJS</p>
+              <p>Express</p>
+              <p>GraphQL</p>
+              <p>PostgreSQL</p>
+              <p>Github</p>
+              <p>Jira</p> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
