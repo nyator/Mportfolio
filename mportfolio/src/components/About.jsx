@@ -15,7 +15,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
-        <div className="space-y-5 text-gray-300 leading-relaxed text-[16.5px] text-justify">
+        <div className="space-y-5 text-gray-300 leading-relaxed text-[15px] text-start">
           <div className="overflow-hidden w-fit">
             <p>
               <span className="bg-blue-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
@@ -43,7 +43,7 @@ const About = () => {
             opening that I might like, let's connect 🔗
           </p>
           <div className="flex items-center gap-3">
-            <p className="flex items-center gap-1 text-blue-300 opacity-70">
+            <p className="flex items-center gap-1 text-blue-300 text-sm opacity-70">
               My links <VscIndent />
             </p>
             <Linkicon />
