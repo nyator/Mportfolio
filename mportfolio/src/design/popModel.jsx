@@ -12,7 +12,7 @@ const PopModel = ({onClose}) => {
             onClose()
         }
     }
-const img = {projects};
+// const img = {projects};
 
     return (
       <div ref={modelRef} onClick={closeModel}className="fixed w-screen h-screen z-50 top-0 left-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center justify-center">

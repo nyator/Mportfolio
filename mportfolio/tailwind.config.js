@@ -1,11 +1,15 @@
+import keepPreset from "keep-react/preset";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
   content: [
+    "./index.html",
     './pages/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
+    "node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -73,5 +77,6 @@ module.exports = {
       },
     },
   },
+  presets: [keepPreset],
   plugins: [require("tailwindcss-animate")],
 }

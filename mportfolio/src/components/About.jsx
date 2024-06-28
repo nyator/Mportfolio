@@ -1,8 +1,9 @@
 import { tools, fun_tools } from "@/constant/text";
 
-import Linkicon from "@/design/Linkicon";
+import Linkicon from "../design/linkicon";
 import { VscIndent, VscLibrary } from "react-icons/vsc";
 import { BsEmojiSmileFill } from "react-icons/bs";
+
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
-        <div className="space-y-5 text-gray-300 leading-relaxed text-[15px] text-start">
+        <div className="space-y-6 text-gray-300 font-medium leading-relaxed text-[15px] text-start">
           <div className="overflow-hidden w-fit">
             <p>
               <span className="bg-blue-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
@@ -54,6 +55,7 @@ const About = () => {
 
 
 
+
         <div className="space-y-10">
           <div>
             <div className="flex items-center gap-3 mb-5">
@@ -80,7 +82,7 @@ const About = () => {
             <div className="flex items-center gap-3 mb-5">
                 <BsEmojiSmileFill  className="text-blue-500 size-5" />
 
-              <h1 className="font-black text-gray-300">Use at work </h1>
+              <h1 className="font-black text-gray-300">Use for fun </h1>
             </div>
 
             <div className="flex flex-wrap flex-col-4 gap-2">
