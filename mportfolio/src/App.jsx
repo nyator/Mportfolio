@@ -5,6 +5,8 @@ import Topnav from "./components/Topnav";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Exp from "./components/Exp";
+import Contact from "./components/Contact";
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
           {/* <Hero /> */}
           <About />
           <Projects />
+          <Exp />
+          <Contact />
         </div>
       </div>
     </div>

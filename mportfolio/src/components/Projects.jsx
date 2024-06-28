@@ -36,7 +36,7 @@ export const About = () => {
             {/* {showModel && <PopModel onClose={() => setShowModel(false)} />} */}
 
             <div className="flex items-center gap-8 mt-4 flex-row">
-              <h1 className="font-bold text-lg shrink-0 max-w-[calc(100%_-_150px)]">
+              <h1 className="font-black text-xl shrink-0 max-w-[calc(100%_-_150px)]">
               {item.title}<span className="text-blue-500">.</span>
               </h1>
               <div className="w-full h-[1px] bg-zinc-700" />
