@@ -17,7 +17,7 @@ const App = () => {
       <div className="ml-[55px]">
         <Topnav />
         <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
-          {/* <Hero /> */}
+          <Hero />
           <About />
           <Projects />
           <Exp />

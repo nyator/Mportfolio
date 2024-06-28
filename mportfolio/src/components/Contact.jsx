@@ -11,7 +11,7 @@ const Contact = () => {
         </p>
         <a href="" className="flex items-center justify-center gap-2 w-fit text-lg md:text-2xl  mx-auto hover:text-indigo-300 transition-colors ">
           <Mails />
-          <span className="">nyatorhenry@gmail.com</span>
+          <span className="font-semibold">nyatorhenry@gmail.com</span>
         </a>
       </div>
   )
