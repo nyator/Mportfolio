@@ -6,7 +6,7 @@ const Button = ({ title, className, href }) => {
     <a href={href} target="blank" >
       <button
         type="button"
-        className={`${style.navbutton} ${className} ml-2 text-nowrap`}
+        className={`${style.navbutton} ${className} text-nowrap`}
       >
         {title}
       </button>

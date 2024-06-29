@@ -1,3 +1,5 @@
+import { Typewriter } from "react-simple-typewriter";
+
 import Button from "@/design/button";
 import WaterDropGrid from "@/design/waterDropGrid";
 
@@ -7,11 +9,21 @@ const Hero = () => {
       <div className="overflow-hidden py-24 md:py-32 pointer-events-none relative z-10">
         <div className="space-y-3">
           <h1 className="relative overflow-hidden w-fit text-4xl sm:text-6xl font-black text-zinc-100 md:text-8xl">
-            Hi, I'm HenRy🔰
+            Hi, I'm Henry
             {/* <span className="text-blue-500">.</span> */}
           </h1>
-          <h2 className="pointer-events-auto relative overflow-hidden w-fit text-xl sm:text-2xl text-zinc-300 md:text-4xl">
-            I am a Full Stack Developer
+          <h2 className="pointer-events-auto relative overflow-hidden w-fit text-xl sm:text-2xl font-extrabold text-zinc-300 md:text-4xl">
+            I am a{" "}
+            <span className="text-blue-500 font-semibold">
+              <Typewriter 
+                words={["Web", "Mobile", "Frontend"]}
+                loop={0}
+                typeSpeed={180}
+                delaySpeed={5000}
+                deleteSpeed={150}
+               />
+            </span>
+            {" "}Developer👨🏽‍💻
           </h2>
           <p className="pointer-events-auto relative overflow-hidden w-fit leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
             I've spent the last 5 years building and scaling software for some
@@ -21,7 +33,7 @@ const Hero = () => {
           <Button
             href="https://tailwindcss.com/docs/z-index"
             title="Contact Me"
-            className="pointer-events-auto relative border-blue-500 bg-blue-500 before:bg-blue-700 hover:border-blue-700 mt-3 ml-0"
+            className="pointer-events-auto border-blue-600 bg-blue-500 before:bg-blue-600 hover:border-blue-600 mt-3"
           />
         </div>
       </div>
