@@ -5,7 +5,9 @@ import { projects } from "../constant/project";
 
 import { SiGithub } from "react-icons/si";
 import { RiShareCircleFill } from "react-icons/ri";
+import { IoClose } from "react-icons/io5";
 import { style } from "../constant/index"
+
 // import { ModalComponent } from "@/design/model";
 
 
@@ -30,7 +32,7 @@ export const About = () => {
 
             
             <div onClick={() => setShowModel(true)} className="w-full group aspect-video bg-zinc-700 cursor-pointer relative rounded-lg overflow-hidden"> 
-            <img src={item.img} alt={item.title} className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all rounded group-hover:w-[91%] group-hover:rotate-[2deg]" />
+            <img src={item.img} alt={item.title} className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]" />
             </div>
 
             {/* {showModel && <PopModel onClose={() => setShowModel(false)} />} */}
@@ -54,6 +56,32 @@ export const About = () => {
         ))}
 
 
+
+{/* <div className="fixed inset-0 z-50 px-4 py-12 bg-zinc-950/50 backdrop-blur overflow-y-scroll flex justify-center cursor-pointer">
+  <button className="absolute top-4 md:top-6 text-xl right-4"><IoClose size={30}/></button>
+  <div className="w-full max-w-2xl h-fit rounded-lg overflow-hidden bg-zinc-900 shadow-lg cursor-auto">
+  <img className="w-full" src={projects[0].img} alt="" />
+
+  <div className="p-8">
+  <h4 class="text-3xl font-bold mb-2">The Canvas Club</h4>
+  <p class="flex flex-wrap gap-2 text-sm text-indigo-300">The Canvas Club is a community of artists,,/</p>
+  <div className="space-y-4 my-6 leading-relaxed text-sm text-zinc-300">
+    <p>The Canvas Club is a social community for painters to connect with others in their community.</p>
+    <p>I work primarily on the backend, a collection of Node & Express microservices. Data is stored primarily in Postgres & cached in Redis.</p>
+    <p>The team in total consists of 5 developers. This is a passion project for all of us.</p>
+  </div>
+
+  <div>
+    <p className="font-bold mb-2 text-xl">Project Links<span className="text-blue-500">.</span></p>
+    <div className="flex flex-row gap-5">
+      <a href="" target="blank" className='flex text-gray-300 text-center gap-2'><SiGithub className={`${style.navicon}  size-4`}/><p className='text-[12px]'>Source code</p></a>
+      <a href="" target="blank" className='flex text-gray-300 text-center gap-2' ><RiShareCircleFill className={`${style.navicon} size-4`}/><p className='text-[12px]'>Live Demo</p></a>
+    </div>
+  </div>
+
+  </div>
+  </div>
+</div> */}
 
 
 

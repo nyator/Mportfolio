@@ -52,8 +52,8 @@ export const ModalComponent = () => {
               <h1 className="font-bold text-lg text-white text-nowrap shrink-0 max-w-[calc(100%_-_150px)]"> Project Links </h1>
 
               <div className="flex flex-row gap-5">
-              <a href="" target="blank" className='flex text-gray-300 text-center gap-2'><SiGithub className={`${style.navicon}  size-4`}/><p className='text-[12px]'>Source code</p></a>
-              <a href="" target="blank" className='flex text-gray-300 text-center gap-2' ><RiShareCircleFill className={`${style.navicon} size-4`}/><p className='text-[12px]'>Live Demo</p></a>
+              <a href="" target="blank" className='text-zinc-300 hover:text-indigo-300 transition-colors flex items-center gap-1'><SiGithub className={`${style.navicon}  size-4`}/><p className='text-[12px]'>Source code</p></a>
+              <a href="" target="blank" className='text-zinc-300 hover:text-indigo-300 transition-colors flex items-center gap-1' ><RiShareCircleFill className={`${style.navicon} size-4`}/><p className='text-[12px]'>Live Demo</p></a>
               </div>
             </div>
           </ModalContent>

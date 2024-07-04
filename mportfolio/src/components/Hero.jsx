@@ -10,11 +10,11 @@ const Hero = () => {
         <div className="space-y-3">
           <h1 className="relative overflow-hidden w-fit text-4xl sm:text-6xl font-black text-zinc-100 md:text-8xl">
             Hi, I'm Henry
-            {/* <span className="text-blue-500">.</span> */}
+            <span className="text-blue-500">.</span> 
           </h1>
           <h2 className="pointer-events-auto relative overflow-hidden w-fit text-xl sm:text-2xl font-extrabold text-zinc-300 md:text-4xl">
             I am a{" "}
-            <span className="text-blue-500 font-semibold">
+            <span className="text-blue-500">
               <Typewriter 
                 words={["Web", "Mobile", "Frontend"]}
                 loop={0}
