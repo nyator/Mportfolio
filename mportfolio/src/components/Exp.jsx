@@ -15,14 +15,14 @@ const Exp = () => {
       {experience.map((item, index) => (
      <div className="mb-6 border-b pb-6 border-zinc-700 space-y-4">
 
-      <div className="flex flex-col space-y-1">
+      <div key={index} className="flex flex-col space-y-1">
         <div className="flex items-center justify-between text-nowrap ">
           <h1 className="font-black text-xl shrink-0">{item.company}</h1>
-          <h1 className="font-semibold text-[12px] shrink-0">{item.date}</h1>
+          <h1 className="font-semibold text-[14px] shrink-0">{item.date}</h1>
         </div>
         <div className="flex items-center justify-between text-nowrap">
          <h2 className="font-bold text-blue-300  shrink-0 max-w-[calc(100%_-_150px)]">{item.title}</h2>
-         <h2 className="font-semibold text-[12px]  shrink-0 max-w-[calc(100%_-_150px)]">{item.location}</h2>
+         <h2 className="font-normal text-[14px]  shrink-0 max-w-[calc(100%_-_150px)]">{item.location}</h2>
         </div>
       </div>
 

@@ -18,7 +18,7 @@ const Contact = () => {
         <a href="https://twitter.com/home" className="text-blue-300 hover:underline">
           Twitter
         </a>{" "}
-        if that's more your speed.
+        if that is more connivent.
       </p>
       <a
         href=""

@@ -5,6 +5,7 @@ export const tools = [
   "CSS",
   'Tailwind',
   "React",
+  "React Native",
   "Redux",
   "NodeJS",
   "GitHub",
@@ -15,8 +16,12 @@ export const fun_tools =[
     'Slack',
     'sketch',
     'Figma',
+    'Marvel API',
     'Photoshop',
+    'AfterEffect',
+    'Premiere Pro',
+    'Illustrator',
     'Notion',
-    'Weather API',
+    'Open API',
 
 ]

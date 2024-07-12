@@ -43,8 +43,8 @@ export const About = () => {
               </h1>
               <div className="w-full h-[1px] bg-zinc-700" />
               <div className="flex flex-row gap-2">
-              <a href="https://github.com/nyator/" target="blank"><SiGithub className={`${style.navicon} size-5`}/></a>
-              <a href=""><RiShareCircleFill className={`${style.navicon} size-5`}/></a>
+              <a href={item.github} target="_blank"><SiGithub className={`${style.navicon} size-5`}/></a>
+              <a href={item.live} target="_blank"><RiShareCircleFill className={`${style.navicon} size-5`}/></a>
               </div>
             </div>
 

@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="text-white font-dmsan">
       <Navbar />
-      <div className="ml-[55px]">
+      <div className="ml-[55px] overflow-hidden">
         <Topnav />
         <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
           <Hero />
