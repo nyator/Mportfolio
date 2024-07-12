@@ -4,7 +4,6 @@ import Linkicon from "../design/linkicon";
 import { VscIndent, VscLibrary } from "react-icons/vsc";
 import { BsEmojiSmileFill } from "react-icons/bs";
 
-
 const About = () => {
   return (
     <div id="/about" className="flex flex-col">
@@ -22,39 +21,33 @@ const About = () => {
               <span className="bg-blue-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
                 H
               </span>
-              ey! I'm Bob, if you haven't already gathered that by now. I'm a
-              painter turned software engineer from Daytona, Florida. I
-              specialize in the backend, primarily Node and Rust, but love
-              building with whatever tools are right for the job.
+              ey! I'm Henry, if you haven't already gathered that by now. I'm a
+              Software Developer from Ghana, Accra. I specialize in the
+              Frontend, primarily ReactJs, but love building with whatever tools
+              are right for the job.
             </p>
           </div>
           <p>
-            I currently work for Google on Google Photos. I also toss in my ¢2
-            with the design systems teams from time to time (once an artist,
-            always an artist, amirite?).
+            In addition to my work as a developer, I also teach coding skills to
+            others. It's incredibly rewarding to see my students develop their
+            skills and work towards their goals.
           </p>
           <p>
-            Outside of work, I still love to paint. Any given Sunday you'll find
-            me scribbling some happy clouds with my son ☁️ I even teach courses
-            online if you're looking to learn!
+            Outside of work, I love to make music. On any given day you'll
+            find me on the stage, preforming some music. 🎸
           </p>
           <p>
             I'm passively looking for new positions where I can merge my love
-            for code with my love for the canvas. If you think you've got an
-            opening that I might like, let's connect 🔗
+            for code. If you think you've got an opening that I might like,
+            let's connect 🔗
           </p>
           <div className="flex items-center gap-3">
             <p className="flex items-center gap-1 text-blue-300 text-sm opacity-70">
-              My links <VscIndent />
+              My Links <VscIndent />
             </p>
             <Linkicon />
           </div>
         </div>
-
-
-
-
-
 
         <div className="space-y-10">
           <div>
@@ -77,10 +70,9 @@ const About = () => {
             </div>
           </div>
 
-
           <div>
             <div className="flex items-center gap-3 mb-5">
-                <BsEmojiSmileFill  className="text-blue-500 size-5" />
+              <BsEmojiSmileFill className="text-blue-500 size-5" />
 
               <h1 className="font-black text-gray-300">Use for fun </h1>
             </div>

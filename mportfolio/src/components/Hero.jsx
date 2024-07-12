@@ -10,25 +10,24 @@ const Hero = () => {
         <div className="space-y-3">
           <h1 className="relative overflow-hidden w-fit text-4xl sm:text-6xl font-black text-zinc-100 md:text-8xl">
             Hi, I'm Henry
-            <span className="text-blue-500">.</span> 
+            <span className="text-blue-500">.</span>
           </h1>
           <h2 className="pointer-events-auto relative overflow-hidden w-fit text-xl sm:text-2xl font-extrabold text-zinc-300 md:text-4xl">
             I am a{" "}
             <span className="text-blue-500">
-              <Typewriter 
+              <Typewriter
                 words={["Web", "Mobile", "Frontend"]}
                 loop={0}
                 typeSpeed={180}
                 delaySpeed={5000}
                 deleteSpeed={150}
-               />
-            </span>
-            {" "}Developer👨🏽‍💻
+              />
+            </span>{" "}
+            Developer👨🏽‍💻
           </h2>
           <p className="pointer-events-auto relative overflow-hidden w-fit leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-            I've spent the last 5 years building and scaling software for some
-            pretty cool companies. I also teach people to paint online (incase
-            you've got an empty canvas layin' around 🎨). Let's connect!
+            I'm really excited to connect with you 😊. I've spent some years
+            building and scaling app and websites for awesome individual and a few companies.
           </p>
           <Button
             href="https://tailwindcss.com/docs/z-index"
