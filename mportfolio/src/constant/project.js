@@ -26,10 +26,10 @@ export const projects = [
     id: 3,
     img: example_project,
     title: "Portfolio 2.0 ",
-    tech: "React - Tailwind",
+    tech: "React - Tailwind - CSS",
     description:
       "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
-    github: "https://github.com/nyator/Hoo_Bank",
-    live: "https://hoo-bank-murex.vercel.app/",
+    github: "https://github.com/nyator/Mportfolio/tree/main/mportfolio",
+    live: "",
   },
 ];

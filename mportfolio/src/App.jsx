@@ -16,7 +16,7 @@ const App = () => {
       <Navbar />
       <div className="ml-[55px] overflow-hidden">
         <Topnav />
-        <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
+        <div className="mx-auto max-w-5xl px-4 mb-[1400px] md:px-8 space-y-32 pb-24">
           <Hero />
           <About />
           <Projects />
