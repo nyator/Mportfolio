@@ -15,7 +15,7 @@ export const projects = [
   {
     id: 2,
     img: example_project,
-    title: "Hoobank",
+    title: "Hoobank ",
     tech: "React - Tailwind",
     description:
       "Think Zapier but for paint. Built with a team of four college friends and scaled to 1 billion requests per day. This was a fun one.",
