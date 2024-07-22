@@ -3,10 +3,10 @@ import { Mails } from "lucide-react";
 const Contact = () => {
   return (
     <div
-      id="/contact"
+      
       className="max-w-xl mx-auto bg-zinc-800 px-8 py-12 rounded-xl"
     >
-      <h1 className="text-3xl md:text-5xl font-black text-center">
+      <h1 id="/contact" className="text-3xl md:text-5xl font-black text-center">
         Contact<span className="text-blue-500">.</span>
       </h1>
       <p className="text-center my-8 font-semibold text-zinc-300 leading-relaxed">
