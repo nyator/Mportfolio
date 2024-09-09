@@ -8,10 +8,9 @@ import Projects from "./components/Projects";
 import Exp from "./components/Exp";
 import Contact from "./components/Contact";
 
-
 const App = () => {
-  
   return (
+    <>
     <div className="text-white font-dmsan">
       <Navbar />
       <div className="ml-[55px] overflow-hidden">
@@ -25,9 +24,8 @@ const App = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
-
 export default App;
-
