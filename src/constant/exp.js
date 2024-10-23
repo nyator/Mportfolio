@@ -18,9 +18,9 @@ export const experience = [
         company: "Katon 360",
         title: "Intern",
         location: "Accra, GH",
-        date: "May 2021 - Present",
+        date: "July 2024 - August 2024",
         description:
-        "Worked on the T-Mobile app, which is used by millions of customers everyday. Built features that improve the customer experience and increase revenue.",
+        "Worked on the Katon 360, which is used by millions of customers everyday. Built features that improve the customer experience and increase revenue.",
         tech: [
             "Postgres",
             "MongoDB",
