@@ -10,8 +10,8 @@ import Construction from "./Construction";
 const Topnav = () => {
   return (
     <>
-    <Construction/>
-    <header className="mt-5 h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-zinc-900/50 backdrop-blur-md">
+    {/* <Construction/> */}
+    <header className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-zinc-900/50 backdrop-blur-md">
       <Linkicon />
       <div>
         <Button title="My Resume" href={resume} className='hover:text-zinc-950 border-white before:bg-white ml-2' />
