@@ -16,7 +16,7 @@ const Hero = () => {
             I am a{" "}
             <span className="text-blue-500">
               <Typewriter
-                words={["Web", "Mobile", "Frontend"]}
+                words={["Software", "Mobile", "Frontend"]}
                 loop={0}
                 typeSpeed={180}
                 delaySpeed={5000}

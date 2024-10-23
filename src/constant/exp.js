@@ -21,13 +21,12 @@ export const experience = [
         location: "Accra, GH",
         date: "July 2024 - August 2024",
         description:
-        "Worked on the Katon 360, which is used by millions of customers everyday. Built features that improve the customer experience and increase revenue.",
+        "Worked at the Katon 360, where i horned my skills in Data Analysis and Quality Assurance (QA)",
         tech: [
           "MSExcel",
-            "Mysql",
+            "MySQL",
             "Git",
             "Jira",
-          
         ],
     },
 ];
