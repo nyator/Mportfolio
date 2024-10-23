@@ -19,7 +19,7 @@ const Hero = () => {
                 words={["Software", "Mobile", "Frontend"]}
                 loop={0}
                 typeSpeed={180}
-                delaySpeed={5000}
+                delaySpeed={4000}
                 deleteSpeed={150}
               />
             </span>{" "}
