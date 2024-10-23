@@ -9,9 +9,10 @@ export const experience = [
         tech: [
           "HTML",
           "CSS",
-          "React",
           "JavaScript",
-          "Redux",
+          "React",
+          "NodeJS",
+          "ExpressJS",
         ],
     },
     {
@@ -22,12 +23,11 @@ export const experience = [
         description:
         "Worked on the Katon 360, which is used by millions of customers everyday. Built features that improve the customer experience and increase revenue.",
         tech: [
-            "Postgres",
-            "MongoDB",
-            "GitHub",
+          "MSExcel",
+            "Mysql",
+            "Git",
             "Jira",
-            "Heroku",
-            "AWS",
+          
         ],
     },
 ];
