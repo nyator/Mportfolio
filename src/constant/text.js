@@ -6,22 +6,26 @@ export const tools = [
   'Tailwind',
   "React",
   "React Native",
-  "Redux",
+  "MongoDB",
+  "ExpressJS",
+  "MySQL",
   "NodeJS",
+  "Redux",
   "GitHub",
   "Git",
 ];
 
 export const fun_tools =[
     'Slack',
-    'sketch',
     'Figma',
-    'Marvel API',
     'Photoshop',
     'AfterEffect',
     'Premiere Pro',
     'Illustrator',
     'Notion',
+    'Marvel API',
     'Open API',
+    'Logic Pro',
+    'Ableton Live',
 
 ]
