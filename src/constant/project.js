@@ -32,4 +32,14 @@ export const projects = [
     github: "https://github.com/nyator/Mportfolio",
     live: "https://henry-portfolio-2.vercel.app/",
   },
+  {
+    id: 4,
+    img: example_project,
+    title: "StemBIt MVP - Coming Soon ",
+    tech: "React Native - NativeWind - Expo Audio ",
+    description:
+      "Stembit a Music playback mobile app that helps user play loops and can change tempo to fit music.",
+    github: "https://github.com/nyator/StemBit-MVP",
+    live: "",
+  },
 ];

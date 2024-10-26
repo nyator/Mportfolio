@@ -35,7 +35,7 @@ export const About = () => {
             <img src={item.img} alt={item.title} className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]" />
             </div>
 
-            {/* {showModel && <PopModel onClose={() => setShowModel(false)} />} */}
+            {showModel && <PopModel onClose={() => setShowModel(false)} />}
 
             <div className="flex items-center gap-8 mt-4 flex-row">
               <h1 className="font-black text-xl shrink-0 max-w-[calc(100%_-_150px)]">
