@@ -1,6 +1,8 @@
 import example_project from "../assets/example_project.jpg";
 import hoobank from "../assets/hoobank.png";
 import portfolio1 from "../assets/portfolio1.png";
+import stembit from "../assets/stembit.jpeg";
+import portfolio2 from "../assets/portfolio2.png";
 
 
 export const projects = [
@@ -26,7 +28,7 @@ export const projects = [
   },
   {
     id: 3,
-    img: example_project,
+    img: portfolio2,
     title: "Portfolio 2.0",
     tech: "React - Tailwind - AnimeJS - CSS",
     description:
@@ -36,7 +38,7 @@ export const projects = [
   },
   {
     id: 4,
-    img: example_project,
+    img: stembit,
     title: "StemBIt MVP - Coming Soon",
     tech: "React Native - NativeWind - Expo Audio",
     description:
