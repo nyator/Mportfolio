@@ -25,6 +25,9 @@ export const experience = [
         tech: [
           "MSExcel",
             "MySQL",
+            // "Python",
+            "Tableau",
+            "Google Trends",
             "Git",
             "Jira",
         ],

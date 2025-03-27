@@ -13,7 +13,7 @@ import { style } from "../constant/index"
 
 
 export const About = () => {
-  const [showModel, setShowModel] = useState(false);
+  // const [showModel, setShowModel] = useState(false);
 
   return (
     <div id="/projects" className="flex flex-col">
@@ -31,7 +31,7 @@ export const About = () => {
             
 
             
-            <div onClick={() => setShowModel(true)} className="w-full group aspect-video bg-zinc-700 cursor-pointer relative rounded-lg overflow-hidden"> 
+            <div onClick={() => setShowModel(true)} className="w-full group aspect-video bg-zinc-700 relative rounded-lg overflow-hidden"> 
             <img src={item.img} alt={item.title} className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]" />
             </div>
 

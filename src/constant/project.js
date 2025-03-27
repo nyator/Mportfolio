@@ -28,6 +28,16 @@ export const projects = [
   },
   {
     id: 3,
+    img: stembit,
+    title: "PNCreatives",
+    tech: "React - Tailwind - AnimeJS",
+    description:
+      "Worked on websites, which is visited by clients and customers of the company everyday. Built features that improve the customer experience and increase revenue.",
+    github: "https://github.com/nyator/pncreatives-website",
+    live: "https://pncreatives-website.vercel.app/",
+  },
+  {
+    id: 4,
     img: portfolio2,
     title: "Portfolio 2.0",
     tech: "React - Tailwind - AnimeJS - CSS",
@@ -37,7 +47,17 @@ export const projects = [
     live: "https://henry-portfolio-2.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
+    img: stembit,
+    title: "Entrynest - Coming Soon",
+    tech: "React - tailwind - Figma",
+    description:
+      "A job search portal to discover internships, mentorships and entry-level jobs (entrynest). It is a platform that connects students and recent graduates with job opportunities.",
+    github: "https://github.com/nyator/entrynest",
+    live: "",
+  },
+  {
+    id: 6,
     img: stembit,
     title: "StemBIt MVP - Coming Soon",
     tech: "React Native - NativeWind - Expo Audio",
