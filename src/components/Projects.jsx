@@ -22,22 +22,21 @@ export const About = () => {
         </h1>
       </div>
 
-      {/* <ModalComponent/> */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-8">
         {projects.map((item) => (
-          <div>
+          <div key={item.title}>
             <div
-              onClick={() => setShowModel(true)}
-              className="w-full group aspect-video bg-zinc-700 relative rounded-lg overflow-hidden"
+              onClick={() => window.open(item.live, "_blank")}
+              className="w-full group aspect-video bg-zinc-700 relative rounded-lg overflow-hidden cursor-pointer"
             >
               <img
                 src={item.img}
                 alt={item.title}
                 className="w-[85%] absolute bottom-16 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]"
               />
+              <div className="bg-gradient-to-b from-[#00000000] to-zinc-950 absolute translate-y-32 w-full h-2/4"></div>
+              <div className="bg-gradient-to-r from-[#000] to-[#786] absolute translate-y-60 w-full h-full"></div>
             </div>
-
-            {/* {showModel && <PopModel onClose={() => setShowModel(false)} />} */}
 
             <div className="flex items-center gap-8 mt-4 flex-row">
               <h1 className="font-black text-xl shrink-0 max-w-[calc(100%_-_150px)]">
