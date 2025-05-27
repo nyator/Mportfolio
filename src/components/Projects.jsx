@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 
 import PopModel from "@/design/popModel";
-import { projects } from "../constant/project"; 
+import { projects } from "../constant/project";
 
 import { SiGithub } from "react-icons/si";
 import { RiShareCircleFill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-import { style } from "../constant/index"
+import { style } from "../constant/index";
 
 // import { ModalComponent } from "@/design/model";
-
-
 
 export const About = () => {
   // const [showModel, setShowModel] = useState(false);
@@ -24,40 +22,54 @@ export const About = () => {
         </h1>
       </div>
 
-        {/* <ModalComponent/> */}
+      {/* <ModalComponent/> */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-8">
         {projects.map((item) => (
           <div>
-            
-
-            
-            <div onClick={() => setShowModel(true)} className="w-full group aspect-video bg-zinc-700 relative rounded-lg overflow-hidden"> 
-            <img src={item.img} alt={item.title} className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]" />
+            <div
+              onClick={() => setShowModel(true)}
+              className="w-full group aspect-video bg-zinc-700 relative rounded-lg overflow-hidden"
+            >
+              <img
+                src={item.img}
+                alt={item.title}
+                className="w-[85%] absolute bottom-16 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]"
+              />
             </div>
 
             {/* {showModel && <PopModel onClose={() => setShowModel(false)} />} */}
 
             <div className="flex items-center gap-8 mt-4 flex-row">
               <h1 className="font-black text-xl shrink-0 max-w-[calc(100%_-_150px)]">
-              {item.title}<span className="text-blue-500">.</span>
+                {item.title}
+                <span className="text-blue-500">.</span>
               </h1>
               <div className="w-full h-[1px] bg-zinc-700" />
               <div className="flex flex-row gap-2">
-              <a href={item.github} target="_blank"><SiGithub className={`${style.navicon} size-5`}/></a>
-              <a href={item.live} target="_blank"><RiShareCircleFill className={`${style.navicon} size-5`}/></a>
+                <a href={item.github} target="_blank">
+                  <SiGithub className={`${style.navicon} size-5`} />
+                </a>
+                <a href={item.live} target="_blank">
+                  <RiShareCircleFill className={`${style.navicon} size-5`} />
+                </a>
               </div>
             </div>
 
-              <p className="text-sm space-x-3 text-blue-300 opacity-70">{item.tech}</p>
-              <p className=" text-gray-300 text-[15px] ">{item.description}
-              </p>
-              <span className=" text-blue-300 text-[15px] block cursor-pointer" onClick={() => setShowModel(true)}> Learn more...</span>
+            <p className="text-sm space-x-3 text-blue-300 opacity-70">
+              {item.tech}
+            </p>
+            <p className=" text-gray-300 text-[15px] ">{item.description}</p>
+            <span
+              className=" text-blue-300 text-[15px] block cursor-pointer"
+              onClick={() => setShowModel(true)}
+            >
+              {" "}
+              {/* Learn more... */}
+            </span>
           </div>
         ))}
 
-
-
-{/* <div className="fixed inset-0 z-50 px-4 py-12 bg-zinc-950/50 backdrop-blur overflow-y-scroll flex justify-center cursor-pointer">
+        {/* <div className="fixed inset-0 z-50 px-4 py-12 bg-zinc-950/50 backdrop-blur overflow-y-scroll flex justify-center cursor-pointer">
   <button className="absolute top-4 md:top-6 text-xl right-4"><IoClose size={30}/></button>
   <div className="w-full max-w-2xl h-fit rounded-lg overflow-hidden bg-zinc-900 shadow-lg cursor-auto">
   <img className="w-full" src={projects[0].img} alt="" />
@@ -83,13 +95,10 @@ export const About = () => {
   </div>
 </div> */}
 
-
-
         {/* <button onClick={() => setShowModel(true)} className="bg-blue-700 p-5">
           show PopModel
         </button>
         {showModel && <PopModel onClose={() => setShowModel(false)} />} */}
-        
       </div>
     </div>
   );
