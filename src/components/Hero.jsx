@@ -30,7 +30,7 @@ const Hero = () => {
             building and scaling app and websites for awesome individual and a few companies.
           </p>
           <Button
-            href="https://tailwindcss.com/docs/z-index"
+            href="mailto:nyatorhenry@gmail.com"
             title="Contact Me"
             className="pointer-events-auto border-blue-600 bg-blue-500 before:bg-blue-600 hover:border-blue-600 mt-3"
           />
