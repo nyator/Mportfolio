@@ -5,8 +5,8 @@ import stembit from "../assets/stembit.png";
 import portfolio2 from "../assets/portfolio2.png";
 import pncreatives from "../assets/pncreatives.png";
 import entrynest from "../assets/entrynest.png";
-// project image should be view on  chrome full screen 
-
+import netSpeed from "../assets/netSpeed.png";
+// project image should be view on  chrome full screen
 
 export const projects = [
   {
@@ -19,7 +19,7 @@ export const projects = [
     github: "https://github.com/nyator/pncreatives-website",
     live: "https://pncreatives-website.vercel.app/",
   },
-   {
+  {
     id: 2,
     img: entrynest,
     title: "Entrynest",
@@ -31,6 +31,16 @@ export const projects = [
   },
   {
     id: 3,
+    img: netSpeed,
+    title: "netSpeed",
+    tech: "React Native - NativeWind - Expo Network",
+    description:
+      "A mobile app that helps user check their internet speed. It provides a simple and intuitive interface for users to test their internet connection speed.",
+    github: "https://github.com/nyator/netSpeed",
+    live: "", //appstore link or playstore link will be added later
+  },
+  {
+    id: 4,
     img: portfolio2,
     title: "Portfolio 2.0",
     tech: "React - Tailwind - AnimeJS - CSS",
@@ -39,10 +49,8 @@ export const projects = [
     github: "https://github.com/nyator/Mportfolio",
     live: "https://henry-portfolio-2.vercel.app/",
   },
- 
-  
   {
-    id: 4,
+    id: 5,
     img: hoobank,
     title: "Hoobank",
     tech: "React - Tailwind",
@@ -51,9 +59,8 @@ export const projects = [
     github: "https://github.com/nyator/Hoo_Bank",
     live: "https://hoo-bank-murex.vercel.app/",
   },
-  
   {
-    id: 5,
+    id: 6,
     img: portfolio1,
     title: "Portfolio 1.0",
     tech: "React - Tailwind - Figma",
@@ -63,7 +70,7 @@ export const projects = [
     live: "https://henry-portfolio-1.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     img: stembit,
     title: "StemBIt MVP - Coming Soon",
     tech: "React Native - NativeWind - Expo Audio",
