@@ -6,7 +6,7 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div id="/about">
+    <section id="/about">
     <div className="flex flex-col">
       <div className="flex items-center gap-8 mb-12 flex-row-reverse">
         <div className="w-full h-[1px] bg-zinc-700" />
@@ -92,7 +92,7 @@ const About = () => {
         </div>
       </div>
       </div>
-    </div>
+    </section>
   );
 };
 
