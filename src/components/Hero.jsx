@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative">
       <div className="overflow-hidden py-24 md:py-32 pointer-events-none relative z-10">
         <div className="space-y-3">
-          <h1 className="relative overflow-hidden w-fit text-4xl sm:text-6xl font-black text-zinc-100 md:text-8xl">
+          <h1 className="relative overflow-hidden w-fit text-4xl sm:text-6xl font-bold text-zinc-100 md:text-8xl font-Anybody">
             Hi, I'm Henry
             <span className="text-blue-500">.</span>
           </h1>

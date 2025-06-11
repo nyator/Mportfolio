@@ -12,10 +12,10 @@ const Navbar = () => {
         <a href="/"><img src={logo} alt="Logo" /></a>
       </div>
       <div className="mt-3">
-        <Link to="/about"  activeClass={`${style.navActive}`} spy={true} smooth={true} offset={-20} duration={400} className={` ${style.nav}`}><h1 className="rotate-90">About</h1></Link>
-        <Link to="/projects"  activeClass={style.navActive} spy={true} smooth={true} offset={-20} duration={400} className={`${style.nav}`}><h1 className="rotate-90">Project</h1></Link>
-        <Link to="/exp"  activeClass={style.navActive} spy={true} smooth={true} offset={-20} duration={400} className={`${style.nav}`}><h1 className="rotate-90">Exp.</h1></Link>
-        <Link to="/contact"  activeClass={style.navActive} spy={true} smooth={true} offset={-20} duration={400} className={`${style.nav}`}><h1 className="rotate-90 ">Contact</h1></Link>
+        <Link to="/about"  activeClass={`${style.navActive}`} spy={true} smooth={true} offset={-20} duration={500}   className={` ${style.nav}`}><h1 className="rotate-90">About</h1></Link>
+        <Link to="/projects"  activeClass={style.navActive} spy={true} smooth={true} offset={-20} duration={500}   className={`${style.nav}`}><h1 className="rotate-90">Project</h1></Link>
+        <Link to="/exp"  activeClass={style.navActive} spy={true} smooth={true} offset={-20} duration={500}   className={`${style.nav}`}><h1 className="rotate-90">Exp.</h1></Link>
+        <Link to="/contact"  activeClass={style.navActive} spy={true} smooth={true} offset={-20} duration={500}   className={`${style.nav}`}><h1 className="rotate-90 ">Contact</h1></Link>
       
       </div>
     </div>

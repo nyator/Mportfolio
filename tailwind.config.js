@@ -23,6 +23,8 @@ module.exports = {
     extend: {
       fontFamily: {
         dmsan: ["DM Sans", "sans-serif"],
+        Anybody: ["Anybody", "sans-serif"],
+
       },
       colors: {
         border: "hsl(var(--border))",

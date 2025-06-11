@@ -2,6 +2,8 @@ import { experience } from "@/constant/exp";
 import { style } from "../constant/index";
 import { CgLink } from "react-icons/cg";
 
+import { Dude23 } from "../assets/illustration";
+
 const Exp = () => {
   return (
     <div id="/exp" className="flex flex-col">
@@ -10,6 +12,7 @@ const Exp = () => {
         <h1 className="text-3xl md:text-5xl font-black text-end">
           Experience<span className="text-blue-500">.</span>
         </h1>
+        <img src={Dude23} className="absolute w-24 h-24" />
       </div>
 
       {experience.map((item, index) => (

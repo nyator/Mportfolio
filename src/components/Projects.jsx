@@ -8,6 +8,8 @@ import { RiShareCircleFill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
 import { style } from "../constant/index";
 
+import { Dude22 } from "@/assets/illustration";
+
 // import { ModalComponent } from "@/design/model";
 
 export const About = () => {
@@ -20,6 +22,7 @@ export const About = () => {
         <h1 className="text-3xl md:text-5xl font-black text-end">
           Projects<span className="text-blue-500">.</span>
         </h1>
+        <img src={Dude22} className="absolute w-24 h-24" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-8">
