@@ -10,19 +10,19 @@ const About = () => {
   return (
     <section id="/about">
       <div className="flex flex-col">
-        <div className="flex items-center gap-8 mb-12 flex-row-reverse">
+        <div className="flex flex-row-reverse gap-8 items-center mb-12">
           <div className="w-full h-[1px] bg-zinc-700" />
-          <h1 className="text-3xl md:text-5xl font-black text-end">
+          <h1 className="text-3xl font-black md:text-5xl font-Guy text-end">
             About<span className="text-blue-500">.</span>
           </h1>
-          <img src={Dude17} className="absolute w-24 h-24 "/>
+          <img src={Dude17} className="absolute w-24 h-24" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
           <div className="space-y-6 text-gray-300 font-medium leading-relaxed text-[15px] text-start">
             <div className="overflow-hidden w-fit">
               <p>
-                <span className="bg-blue-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
+                <span className="float-left px-3 py-2 mr-1 text-2xl font-bold text-white bg-blue-500 rounded">
                   H
                 </span>
                 ey! I'm Henry, if you haven't already gathered that by now. I'm
@@ -45,8 +45,8 @@ const About = () => {
               for code. If you think you've got an opening that I might like,
               let's connect 🔗
             </p>
-            <div className="flex items-center gap-3">
-              <p className="flex items-center gap-1 text-blue-300 text-sm opacity-70">
+            <div className="flex gap-3 items-center">
+              <p className="flex gap-1 items-center text-sm text-blue-300 opacity-70">
                 My Links <VscIndent />
               </p>
               <Linkicon />
@@ -55,14 +55,14 @@ const About = () => {
 
           <div className="space-y-10">
             <div>
-              <div className="flex items-center gap-3 mb-5">
-                <div className="bg-blue-500 p-[2px] rounded-[2px]">
+              <div className="flex gap-3 items-center mb-5">
+                <div className="bg-white p-[2px] rounded-[2px]">
                   <VscLibrary className="text-black" />
                 </div>
-                <h1 className="font-black text-gray-300">Use at work </h1>
+                <h1 className="font-black text-gray-300">Tools for work </h1>
               </div>
 
-              <div className="flex flex-wrap flex-col-4 gap-2">
+              <div className="flex flex-wrap gap-2 flex-col-4">
                 {tools.map((tool, index) => (
                   <p
                     key={index}
@@ -75,13 +75,13 @@ const About = () => {
             </div>
 
             <div>
-              <div className="flex items-center gap-3 mb-5">
-                <BsEmojiSmileFill className="text-blue-500 size-5" />
+              <div className="flex gap-3 items-center mb-5">
+                <BsEmojiSmileFill className="text-white size-5" />
 
-                <h1 className="font-black text-gray-300">Use for fun </h1>
+                <h1 className="font-black text-gray-300">Others tools</h1>
               </div>
 
-              <div className="flex flex-wrap flex-col-4 gap-2">
+              <div className="flex flex-wrap gap-2 flex-col-4">
                 {fun_tools.map((tool, index) => (
                   <p
                     key={index}

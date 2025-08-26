@@ -5,10 +5,10 @@ module.exports = {
   darkMode: ["class"],
   content: [
     "./index.html",
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
     "node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
   ],
   prefix: "",
@@ -24,8 +24,10 @@ module.exports = {
       fontFamily: {
         dmsan: ["DM Sans", "sans-serif"],
         Anybody: ["Anybody", "sans-serif"],
-
+        Guy: ["Luckiest Guy", "cursive"],
+        outfit: ["Outfit", "sans-serif"],
       },
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -84,4 +86,4 @@ module.exports = {
   },
   presets: [keepPreset],
   plugins: [require("tailwindcss-animate")],
-}
+};

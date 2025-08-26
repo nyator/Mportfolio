@@ -7,24 +7,24 @@ import { Dude23 } from "../assets/illustration";
 const Exp = () => {
   return (
     <div id="/exp" className="flex flex-col">
-      <div className="flex items-center gap-8 mb-12 flex-row-reverse">
+      <div className="flex flex-row-reverse gap-8 items-center mb-12">
         <div className="w-full h-[1px] bg-zinc-700" />
-        <h1 className="text-3xl md:text-5xl font-black text-end">
+        <h1 className="text-3xl font-black md:text-5xl text-end font-Guy">
           Experience<span className="text-blue-500">.</span>
         </h1>
         <img src={Dude23} className="absolute w-24 h-24" />
       </div>
 
       {experience.map((item, index) => (
-        <div className="mb-6 border-b pb-6 border-zinc-700 space-y-4">
+        <div className="pb-6 mb-6 space-y-4 border-b border-zinc-700">
           <div key={index} className="flex flex-col space-y-1">
-            <div className="flex items-center justify-between text-nowrap ">
+            <div className="flex justify-between items-center text-nowrap">
               <a
                 href={item.link}
                 target="_blank"
-                className="flex items-center gap-2 hover:text-blue-300 hover:underline transition-all duration-300"
+                className="flex gap-2 items-center transition-all duration-300 hover:text-blue-300 hover:underline"
               >
-                <h1 className="font-black text-xl shrink-0">{item.company}</h1>
+                <h1 className="text-xl font-black shrink-0">{item.company}</h1>
                 <span className="text-blue-500">.</span>
                 <CgLink className={`size-5`} />
               </a>
@@ -33,7 +33,7 @@ const Exp = () => {
                 {item.date}
               </h1>
             </div>
-            <div className="flex items-center justify-between text-nowrap">
+            <div className="flex justify-between items-center text-nowrap">
               <h2 className="font-bold text-blue-300  shrink-0 max-w-[calc(100%_-_150px)]">
                 {item.title}
               </h2>
@@ -43,11 +43,11 @@ const Exp = () => {
             </div>
           </div>
 
-          <p className="font-normal text-gray-300 shrink-0 ">
+          <p className="font-normal text-gray-300 shrink-0">
             {item.description}
           </p>
 
-          <div className="flex flex-wrap flex-col-4 gap-2">
+          <div className="flex flex-wrap gap-2 flex-col-4">
             {item.tech.map((tech) => (
               <p className="text-[12px] text-gray-300 bg-zinc-700 w-fit px-2 py-1 rounded">
                 {tech}

@@ -6,15 +6,16 @@ import WaterDropGrid from "@/design/waterDropGrid";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="overflow-hidden py-24 md:py-32 pointer-events-none relative z-10">
+      <div className="overflow-hidden relative z-10 py-24 pointer-events-none md:py-32">
         <div className="space-y-3">
-          <h1 className="relative overflow-hidden w-fit text-4xl sm:text-6xl font-bold text-zinc-100 md:text-8xl font-Anybody">
-            Hi, I'm Henry
-            <span className="text-blue-500">.</span>
+          <h1 className="overflow-hidden relative py-2 text-4xl font-bold w-fit sm:text-6xl text-zinc-100 md:text-8xl font-Guy">
+            <span className="text-blue-600">Henry </span>Nyator 
+            {/* HENRY NYATOR */}
+            <span className="text-blue-500"> .</span>
           </h1>
-          <h2 className="pointer-events-auto relative overflow-hidden w-fit text-xl sm:text-2xl font-extrabold text-zinc-300 md:text-4xl">
+          <h2 className="overflow-hidden relative text-xl font-extrabold pointer-events-auto w-fit sm:text-2xl text-zinc-300 md:text-4xl">
             I am a{" "}
-            <span className="text-blue-500">
+            <span className="text-blue-200">
               <Typewriter
                 words={["Software", "Mobile", "Frontend"]}
                 loop={0}
@@ -25,14 +26,15 @@ const Hero = () => {
             </span>{" "}
             Developer👨🏽‍💻
           </h2>
-          <p className="pointer-events-auto relative overflow-hidden w-fit leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
+          <p className="overflow-hidden relative max-w-xl text-sm leading-relaxed pointer-events-auto w-fit md:leading-relaxed text-zinc-300 md:text-base">
             I'm really excited to connect with you 😊. I've spent some years
-            building and scaling app and websites for awesome individual and a few companies.
+            building and scaling app and websites for awesome individual and a
+            few companies.
           </p>
           <Button
             href="mailto:nyatorhenry@gmail.com"
             title="Contact Me"
-            className="pointer-events-auto border-blue-600 bg-blue-500 before:bg-blue-600 hover:border-blue-600 mt-3"
+            className="mt-3 bg-blue-500 border-blue-600 pointer-events-auto before:bg-blue-600 hover:border-blue-600"
           />
         </div>
       </div>
