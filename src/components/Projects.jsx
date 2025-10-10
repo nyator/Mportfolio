@@ -29,7 +29,7 @@ export const About = () => {
         {projects.map((item) => (
           <div key={item.title}>
             <div
-              onClick={() => window.open(item.live, "_blank")}
+              // onClick={() => window.open(item.live, "_blank")}
               className="overflow-hidden relative w-full rounded-lg cursor-pointer group aspect-video bg-zinc-700"
             >
               <img
