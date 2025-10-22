@@ -6,6 +6,7 @@ import portfolio2 from "../assets/portfolio2.png";
 import pncreatives from "../assets/pncreatives.png";
 import entrynest from "../assets/entrynest.png";
 import netSpeed from "../assets/netSpeed.png";
+import cvscore from "../assets/cvscore.png";
 // project image should be view on  chrome full screen
 
 export const projects = [
@@ -30,6 +31,16 @@ export const projects = [
     live: "", //appstore link or playstore link will be added later
   },
   {
+    id: 6,
+    img: cvscore,
+    title: "CV SCORE",
+    tech: "React Native - NativeWind - GEMINI AI",
+    description:
+      "A mobile app that helps user check if their resume matches with a job description. It provides a simple and intuitive interface for users to match cv to a job based on a score between 1% - 100%",
+    github: "https://github.com/nyator/cvscore",
+    live: "", //appstore link or playstore link will be added later
+  },
+  {
     id: 1,
     img: pncreatives,
     title: "PNCreatives",
@@ -50,16 +61,6 @@ export const projects = [
     live: "", //appstore link or playstore link will be added later
   },
   {
-    id: 5,
-    img: hoobank,
-    title: "Hoobank",
-    tech: "React - Tailwind",
-    description:
-      "This project showcases modern web design principles using an exemplary banking website.",
-    github: "https://github.com/nyator/Hoo_Bank",
-    live: "https://hoo-bank-murex.vercel.app/",
-  },
-  {
     id: 4,
     img: portfolio2,
     title: "Portfolio 2.0",
@@ -68,6 +69,16 @@ export const projects = [
       "Current portfolio i am using to showcase my works and amplify my presence online. Will be updated when the need arises.",
     github: "https://github.com/nyator/Mportfolio",
     live: "https://henry-portfolio-2.vercel.app/",
+  },
+  {
+    id: 5,
+    img: hoobank,
+    title: "Hoobank",
+    tech: "React - Tailwind",
+    description:
+      "This project showcases modern web design principles using an exemplary banking website.",
+    github: "https://github.com/nyator/Hoo_Bank",
+    live: "https://hoo-bank-murex.vercel.app/",
   },
   // {
   //   id: 6,
