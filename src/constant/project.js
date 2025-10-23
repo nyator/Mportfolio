@@ -7,6 +7,7 @@ import pncreatives from "../assets/pncreatives.png";
 import entrynest from "../assets/entrynest.png";
 import netSpeed from "../assets/netSpeed.png";
 import cvscore from "../assets/cvscore.png";
+import eastwood from "../assets/eastwood.png";
 // project image should be view on  chrome full screen
 
 export const projects = [
@@ -42,13 +43,13 @@ export const projects = [
   },
   {
     id: 1,
-    img: pncreatives,
-    title: "PNCreatives",
-    tech: "React - Tailwind - AnimeJS",
+    img: eastwood,
+    title: "Eman Studios",
+    tech: "React - Tailwind - Framer Motion, Strapi",
     description:
       "Worked on websites, which is visited by clients and customers of the company everyday. Built features that improve the customer experience and increase revenue.",
-    github: "https://github.com/nyator/pncreatives-website",
-    live: "https://pncreatives-website.vercel.app/",
+    github: "https://github.com/nyator/eastwood",
+    live: "",
   },
   {
     id: 7,
