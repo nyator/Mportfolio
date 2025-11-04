@@ -17,7 +17,7 @@ export const About = () => {
 
   return (
     <div id="/projects" className="flex flex-col">
-      <div className="flex flex-row gap-8 items-center mb-12">
+      <div className="flex flex-row items-center gap-8 mb-12">
         <div className="w-full h-[1px] bg-zinc-700" />
         <h1 className="text-3xl font-black md:text-5xl text-end font-Guy">
           Projects<span className="text-blue-500">.</span>
@@ -30,18 +30,18 @@ export const About = () => {
           <div key={item.title}>
             <div
               // onClick={() => window.open(item.live, "_blank")}
-              className="overflow-hidden relative w-full rounded-lg cursor-pointer group aspect-video bg-zinc-700"
+              className="relative w-full overflow-hidden rounded-lg cursor-pointer group aspect-video bg-zinc-700"
             >
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-[85%] absolute bottom-16 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[91%] group-hover:rotate-[2deg]"
+                className=" w-[100%] lg:w-[95%] absolute bottom-10 lg:bottom-16 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all duration-200 rounded group-hover:w-[100%] group-hover:rotate-[1deg]"
               />
               <div className="bg-gradient-to-b from-[#00000000] to-zinc-950 absolute translate-y-32 w-full h-2/4"></div>
-              <div className="bg-gradient-to-r from-[#000] to-[#786] absolute translate-y-60 w-full h-full"></div>
+              <div className="bg-gradient-to-r from-[#000] to-[#786] absolute hidden lg:block lg:translate-y-60 w-full h-2/4 "></div>
             </div>
 
-            <div className="flex flex-row gap-8 items-center mt-4">
+            <div className="flex flex-row items-center gap-8 mt-4">
               <h1 className="font-black text-xl shrink-0 max-w-[calc(100%_-_150px)]">
                 {item.title}
                 <span className="text-blue-500">.</span>
@@ -71,9 +71,9 @@ export const About = () => {
           </div>
         ))}
 
-        {/* <div className="flex overflow-y-scroll fixed inset-0 z-50 justify-center px-4 py-12 backdrop-blur cursor-pointer bg-zinc-950/50">
-  <button className="absolute top-4 right-4 text-xl md:top-6"><IoClose size={30}/></button>
-  <div className="overflow-hidden w-full max-w-2xl rounded-lg shadow-lg cursor-auto h-fit bg-zinc-900">
+        {/* <div className="fixed inset-0 z-50 flex justify-center px-4 py-12 overflow-y-scroll cursor-pointer backdrop-blur bg-zinc-950/50">
+  <button className="absolute text-xl top-4 right-4 md:top-6"><IoClose size={30}/></button>
+  <div className="w-full max-w-2xl overflow-hidden rounded-lg shadow-lg cursor-auto h-fit bg-zinc-900">
   <img className="w-full" src={projects[0].img} alt="" />
 
   <div className="p-8">
