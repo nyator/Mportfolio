@@ -47,9 +47,9 @@ export const projects = [
     title: "Eman Studios",
     tech: "React - Tailwind - Framer Motion, Strapi",
     description:
-      "Worked on websites, which is visited by clients and customers of the company everyday. Built features that improve the customer experience and increase revenue.",
+      "Worked on website, which is visited by clients and customers of the company everyday. Built features that improve the customer experience and increase revenue.",
     github: "https://github.com/nyator/eastwood",
-    live: "",
+    live: "https://eastwoodmantey.vercel.app",
   },
   {
     id: 7,
