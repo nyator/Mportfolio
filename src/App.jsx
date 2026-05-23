@@ -12,17 +12,17 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <>
-    <div className="text-white font-dmsan">
+    <div className="min-h-screen text-white font-dmsan">
       <Navbar />
-      <div className="ml-[55px] overflow-hidden">
+      <div className="ml-[55px] min-h-screen overflow-hidden">
         <Topnav />
-        <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
+        <main className="mx-auto w-full max-w-5xl px-4 pb-24 md:px-8 space-y-32">
           <Hero />
           <About />
           <Projects />
           <Exp />
           <Contact />
-        </div>
+        </main>
       </div>
     </div>
     </>
