@@ -53,7 +53,7 @@ export const projects = [
       "Builtelo is a tech startup in Ghana... coming soon",
     github: "",
     // github: "https://github.com/nyator/entrynest",
-    live: "",
+    live: "https://www.builtelo.com/questionnaire",
     // live: "https://entrynest.vercel.app/",
   },
   {
