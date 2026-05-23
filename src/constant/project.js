@@ -9,6 +9,7 @@ import netSpeed from "../assets/netSpeed.png";
 import cvscore from "../assets/cvscore.png";
 import eastwood from "../assets/eastwood.png";
 import Forge from "../assets/forge.png";
+import Builtelo from "../assets/builtelo.png"
 // project image should be view on  chrome full screen
 
 export const projects = [
@@ -44,6 +45,16 @@ export const projects = [
     live: "", //appstore link or playstore link will be added later
   },
   {
+    id: 5,
+    img: Forge,
+    title: "Forge Inspo",
+    tech: "React - Tailwind", 
+    description:
+    "This project showcases modern web design principles using an exemplary creavtive agency.",
+    github: "https://github.com/nyator/NewWebInspo",
+    live: "https://forgo-inspo.vercel.app/",
+  },
+  {
     id: 7,
     img: stembit,
     title: "StemBit",
@@ -53,25 +64,27 @@ export const projects = [
       github: "https://github.com/nyator/StemBit",
       live: "", //appstore link or playstore link will be added later
     },
+  // {
+    //   id: 2,
+    //   img: entrynest,
+    //   title: "Entrynest",
+    //   tech: "React - tailwind - Figma",
+    //   description:
+    //     "EntryNest is a job and internship platform designed for early-career job seekers in Ghana. As the full-stack developer, I built the frontend with React and Tailwind CSS, and developed RESTful APIs using Node.js and Express, with MongoDB for data management. The app includes multi-role access (students, employers, admins), secure JWT-based authentication, and mobile responsiveness.",
+    //   github: "https://github.com/nyator/entrynest",
+    //   live: "https://entrynest.vercel.app/",
+    // },
     {
-      id: 5,
-      img: Forge,
-      title: "Forge Inspo",
-      tech: "React - Tailwind",
-      description:
-        "This project showcases modern web design principles using an exemplary creavtive agency.",
-      github: "https://github.com/nyator/NewWebInspo",
-      live: "https://forgo-inspo.vercel.app/",
-    },
-    {
-      id: 2,
-      img: entrynest,
-      title: "Entrynest",
+      id: 7,
+      img: Builtelo,
+      title: "Builtelo",
       tech: "React - tailwind - Figma",
       description:
-        "EntryNest is a job and internship platform designed for early-career job seekers in Ghana. As the full-stack developer, I built the frontend with React and Tailwind CSS, and developed RESTful APIs using Node.js and Express, with MongoDB for data management. The app includes multi-role access (students, employers, admins), secure JWT-based authentication, and mobile responsiveness.",
-      github: "https://github.com/nyator/entrynest",
-      live: "https://entrynest.vercel.app/",
+        "Builtelo is a tech startup in Ghana... coming soon",
+      github: "",
+      // github: "https://github.com/nyator/entrynest",
+      live: "",
+      // live: "https://entrynest.vercel.app/",
     },
     // {
       //   id: 4,
