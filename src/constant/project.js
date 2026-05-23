@@ -25,6 +25,16 @@ export const projects = [
     live: "https://emanstudios.co/",
   },
   {
+    id: 5,
+    img: Forge,
+    title: "Forge Inspo",
+    tech: "React - Tailwind", 
+    description:
+    "This project showcases modern web design principles using an exemplary creavtive agency.",
+    github: "https://github.com/nyator/NewWebInspo",
+    live: "https://forgo-inspo.vercel.app/",
+  },
+  {
     id: 3,
     img: netSpeed,
     title: "netSpeed",
@@ -35,6 +45,18 @@ export const projects = [
     live: "", //appstore link or playstore link will be added later
   },
   {
+    id: 7,
+    img: Builtelo,
+    title: "Builtelo",
+    tech: "React - tailwind - Figma",
+    description:
+      "Builtelo is a tech startup in Ghana... coming soon",
+    github: "",
+    // github: "https://github.com/nyator/entrynest",
+    live: "",
+    // live: "https://entrynest.vercel.app/",
+  },
+  {
     id: 6,
     img: cvscore,
     title: "CV SCORE",
@@ -43,16 +65,6 @@ export const projects = [
       "A mobile app that helps user check if their resume matches with a job description. It provides a simple and intuitive interface for users to match cv to a job based on a score between 1% - 100%",
     github: "https://github.com/nyator/cvscore",
     live: "", //appstore link or playstore link will be added later
-  },
-  {
-    id: 5,
-    img: Forge,
-    title: "Forge Inspo",
-    tech: "React - Tailwind", 
-    description:
-    "This project showcases modern web design principles using an exemplary creavtive agency.",
-    github: "https://github.com/nyator/NewWebInspo",
-    live: "https://forgo-inspo.vercel.app/",
   },
   {
     id: 7,
@@ -74,18 +86,6 @@ export const projects = [
     //   github: "https://github.com/nyator/entrynest",
     //   live: "https://entrynest.vercel.app/",
     // },
-    {
-      id: 7,
-      img: Builtelo,
-      title: "Builtelo",
-      tech: "React - tailwind - Figma",
-      description:
-        "Builtelo is a tech startup in Ghana... coming soon",
-      github: "",
-      // github: "https://github.com/nyator/entrynest",
-      live: "",
-      // live: "https://entrynest.vercel.app/",
-    },
     // {
       //   id: 4,
   //   img: portfolio2,
