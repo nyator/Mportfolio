@@ -2,7 +2,8 @@ export const experience = [
   {
     company: "PN Creatives",
     title: "Web Developer",
-    link: "https://pncreatives-website.vercel.app/",
+    // link: "https://pncreatives-website.vercel.app/",
+    link: "",
     location: "Accra, GH",
     date: "May 2023 - Present",
     description:
